@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+h1.red {
+    color:red;
+}
+
+h1.tomato {
+    color: tomato;
+}
+
+p.dodgerBlue {
+    color:dodgerblue;
+}
+
+p.mediumseagreen {
+    color:mediumaquamarine;
+}
+
+

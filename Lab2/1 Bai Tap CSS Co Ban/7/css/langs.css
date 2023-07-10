@@ -1,0 +1,13 @@
+body{
+    background:#EEE;
+    line-height: 1.5em;
+    font-size: 24pt;
+}
+
+span{
+    border: 1px #aaa solid;
+    border-radius: 10%;
+    padding: 0.5%;
+    background: #ccc;
+    
+}

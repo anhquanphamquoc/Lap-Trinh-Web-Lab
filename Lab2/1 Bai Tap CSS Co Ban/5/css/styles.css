@@ -1,0 +1,21 @@
+p.ex1{
+    margin-left: inherit;
+}
+
+div.ex2{
+    border: 1px solid red;
+    width: 300px;
+}
+
+div.ex3{
+    border: 1px solid red;
+    padding: 10px;
+    width: 300px;
+}
+
+div.ex4{
+    border: 1px solid red;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}

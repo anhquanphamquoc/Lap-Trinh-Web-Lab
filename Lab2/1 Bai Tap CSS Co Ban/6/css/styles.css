@@ -1,0 +1,21 @@
+div.outside{
+    border: 5px dotted blue;
+    border-radius: 5%;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.middle{
+    border: 5px dashed red;
+    border-radius: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.inner{
+    border: 5px solid green;
+    padding: 0px;
+    text-align: center;
+    font-size: medium;
+}
