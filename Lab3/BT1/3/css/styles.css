@@ -1,0 +1,9 @@
+li a{
+    display: inline-block; /*đảm bảo liên kế chiếm diện tích*/
+    transition: transform 5s case; /*hiệu ứng chuyển đổi mượt mà*/
+}
+li a:hover {
+    -webkit-transform: rotate(-10deg) scale(2);
+    transform: rotate(-10deg) scale(2);
+}
+   
