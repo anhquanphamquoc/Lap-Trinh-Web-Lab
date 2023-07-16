@@ -4,11 +4,13 @@
     box-shadow: 0 0 5px red;
     position: relative;
     display: inline-block;
-    margin: 60px 5px 5px 5px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px 0px;
     text-align: center;
     width: 1000px;
-    height: 500px;
+    height: 610px;
 }
 
 .hh-box-name{
@@ -37,4 +39,16 @@
 .hh-box-noidung td{
     font-size: 25px;
     color: aqua;
+}
+
+.mytextbox{
+    font-size: 30px;
+    font-style: bold;
+    color: #0000ff; background-color: rgb(255, 196, 254);
+    border: 1px solid #996633; width: 500px;
+}
+
+.bang{
+    margin-left: auto;
+    margin-right: auto;
 }

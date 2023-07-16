@@ -7,48 +7,54 @@
         <div class="hh-box">
             <div class="hh-box-name">ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC</div>
             <div class="hh-box-noidung">
-                <table>
+                <table style="width: 1000px; text-align: left;">
                     <tr>
                         <td>Họ tên</td>
-                        <td> </td>
+                        <td><input id="txtHoTen" class="mytextbox"></td>
                     </tr>
                     <tr>
                         <td>Tên đăng nhập</td>
-                        <td> </td>
+                        <td><input id="txtUserName" class="mytextbox"></td>
                     </tr>
                     <tr>
                         <td>Mật khẩu</td>
-                        <td> </td>
+                        <td><input id="txtPass" class="mytextbox"></td>
                     </tr>
                     <tr>
                         <td>Gõ lại mật khẩu</td>
-                        <td> </td>
+                        <td><input id="txtRepass" class="mytextbox"></td>
                     </tr>
                     <tr>
                         <td>Phái</td>
-                        <td> </td>
+                        <td><input type="radio" name="rdPhai">Nam <input type="radio" name="rdPhai">Nữ </td>
                     </tr>
                     <tr>
                         <td>Ngoại ngữ</td>
-                        <td> </td>
+                        <td><input type="checkbox" name="chkAnh">Anh <input type="checkbox" name="chkPhap">Pháp <input type="checkbox" name="chkHoa">Hoa </td>
                     </tr>
                     <tr>
                         <td>Nghề nghiệp</td>
-                        <td> </td>
+                        <td> 
+                            <select id="cboNgheNghiep" class="mytextbox">
+                                <option value=0>Bạn làm nghề gì?</option>
+                                <option value=1>Học sinh - Sinh viên</option>
+                                <option value=2>Giáo viên</option>
+                                <option value=3>Nhân viên</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td>Hình</td>
-                        <td> </td>
+                        <td><input id="fHinh" type="file" class="mytextbox"></td>
                     </tr>
                     <tr>
                         <td>Sở thích</td>
-                        <td> </td>
+                        <td><textarea id="txtSoThich" class="mytextbox"></textarea></td>
                     </tr>
                     <tr>
-                        <td><button>Đăng ký</button><button>Làm lại</button></td>
+                        <td colspan="2"><div style="text-align: center;"><button id="btnDangKy">Đăng ký</button><button id="btnXoa">Làm lại</button></div></td>
                     </tr>
                 </table>
-                
             </div>
         </div>
     </body>
