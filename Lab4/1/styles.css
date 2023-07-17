@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    width: 1000px; 
+    margin: 0px auto; 
+    min-height: 600px; 
+    
+    background-color: #CCC;
+}
+
+header {
+    background-color: #FF0; 
+    background-image: url("images/animebg2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px; 
+    position: relative;
+}
+
+nav {
+    height: 60px;
+    background-color: #000; 
+    color: #FFF;
+}
+
+ul li {
+    display: inline-block; /*tự trôi*/
+    padding: 5px 10px;
+}
+
+a{
+    text-decoration: none; 
+    color: #FFF;
+}
+
+li:hover {
+    text-decoration: underline; 
+    background-color: #CF3; 
+    color: #F00;
+    border-radius: 9px;
+}
+
+#content {
+    background-color: #FCF;
+    min-height: 470px;
+    width: 790px; 
+    float: left;
+    padding: 5px;   
+}
+
+#right {
+    background-color: #0F3;
+    color: white;
+    text-shadow: 1px 1px 0 #000 ;
+    min-height: 400px;
+    width: 200px;
+    float: right;
+    background-image: url(images/menungangbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    color: #FFF;
+    height: 30px;
+    text-align: center;
+    background-color: #C09; 
+    margin: 5px 0px 0px 0px; 
+    padding: 10px 0px 0px 0px;
+    clear: both;
+}
+
+
+
